@@ -1,0 +1,72 @@
+body {
+  background-image: url("https://source.unsplash.com/twukN12EN7c");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  display: inline;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+}
+nav ul li {
+  display: inline;
+  padding-top: 0;
+  padding-right: 20px;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  color: green;
+}
+
+hr {
+  background-color: #ffff;
+  width: 100%;
+  opacity: 1;
+}
+
+.center {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.center h4 {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.btn {
+  padding: 20px;
+  background-color: rgba(10, 124, 39, 0.842);
+  color: #ffff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(10, 78, 27, 0.842);
+  transition: 1s ease-in-out;
+}
